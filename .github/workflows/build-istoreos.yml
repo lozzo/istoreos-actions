@@ -45,12 +45,13 @@ jobs:
       matrix:
         REPO_BRANCH:
           # - main
-          - istoreos-22.03
+          # - istoreos-22.03
+          - istoreos-22.03-rknpu-098
           # - istoreos-23.05
         ARCHITECTURE:
-          - rk33xx
+          # - rk33xx
           - rk35xx
-          - x86
+          # - x86
         os:
           - ubuntu-22.04
 
